@@ -18,7 +18,7 @@
 
             <div class="flex items-center  gap-3">
                 <img class="w-6" src="./A5-Dev-Board/assets/checkbox.png" alt="">
-                <span class="text-2xl font-semibold">23</span>
+                <span id="value-added" class="text-2xl font-semibold">23</span>
                 <div><button><img class="w-6" src="./A5-Dev-Board/assets/theme-btn.png" alt=""></button></div>
             </div>
         </div>
@@ -33,19 +33,19 @@
                           <div><img src="./A5-Dev-Board/assets/checkbox.png" alt=""></div>
                       <div>
                           <p class="font-thin">Task Assigned </p>
-                          <p class="text-2xl font-bold">5</p>
+                          <p id="task-count" class="text-2xl font-bold">6</p>
                       </div>
                       </div>
                   </div>
                   <!-- two -->
-                  <div id="calender-id" class="bg-gradient-to-r from-[#3752FD] to-[#6C7FFA] flex gap-2 items-center px-5 py-4 rounded-lg">
+                  <div id="calender-id"  class="bg-gradient-to-r from-[#3752FD] to-[#6C7FFA] flex gap-2 items-center px-5 py-4 rounded-lg cursor-pointer">
                       <div><img src="./A5-Dev-Board/assets/board.png" alt=""></div>
                       <div><p class="text-white text-xl font-semibold">Discover Something New Today!</p></div>
                   </div>
                   <!-- three -->
                   <div class="flex gap-2 items-center rounded-xl bg-[#F4F7FF] p-5">
                       <div><img src="./A5-Dev-Board/assets/calender.png" alt=""></div>
-                      <div><p>Wed ,<br>
+                      <div><p id="running-date">Wed ,<br>
                           Jul 28 2025 </p></div>
                   </div>
               </div>
@@ -55,7 +55,7 @@
                     <!-- first div -->
                 <div class="bg-[#F4F7FF] rounded-2xl p-3 space-y-6">
                     <p class="p-3 rounded-xl bg-[#FFFFFF] w-[110px]">ShopEase</p>
-                    <h1 class="text-2xl font-medium">Fix Mobile Button Issue </h1>
+                    <h1 id="first-title" class="text-2xl font-medium">Fix Mobile Button Issue </h1>
                     <p class="p-3 rounded-xl bg-[#FFFFFF] ">Debug using Chrome DevTools, check for overlapping...</p>
                     <div class="flex items-center justify-between">
                         <div>
@@ -63,44 +63,44 @@
                             <p class="font-medium">21 March 2025</p>
                         </div>
                         <div>
-                            <button class="btn btn-primary">Completed</button>
+                            <button class="btn btn-primary complete-btn">Completed</button>
                         </div>
                     </div>
                  </div>
                 <!-- second div -->
                 <div class="bg-[#F4F7FF] rounded-2xl p-3 space-y-6">
                     <p class="p-3 rounded-xl bg-[#FFFFFF] w-[110px]">ShopEase</p>
-                    <h1 class="text-2xl font-medium">Fix Mobile Button Issue </h1>
-                    <p class="p-3 rounded-xl bg-[#FFFFFF]">Debug using Chrome DevTools, check for overlapping...</p>
+                    <h1 id="first-title" class="text-2xl font-medium">Add Dark Mode </h1>
+                    <p class="p-3 rounded-xl bg-[#FFFFFF]">Store the user's preference in localStorage, update CSS ...</p>
                     <div class="flex items-center justify-between">
                         <div>
                             <p class="text-xs font-extralight">Deadline</p>
                             <p class="font-medium">21 March 2025</p>
                         </div>
                         <div>
-                            <button class="btn btn-primary">Completed</button>
+                            <button class="btn btn-primary complete-btn">Completed</button>
                         </div>
                     </div>
                  </div>
                 <!-- third div -->
                 <div class="bg-[#F4F7FF] rounded-2xl p-3 space-y-6">
                     <p class="p-3 rounded-xl bg-[#FFFFFF] w-[110px]">ShopEase</p>
-                    <h1 class="text-2xl font-medium">Fix Mobile Button Issue </h1>
-                    <p class="p-3 rounded-xl bg-[#FFFFFF]">Debug using Chrome DevTools, check for overlapping...</p>
+                    <h1 class="text-2xl font-medium">Optimize  Home page </h1>
+                    <p class="p-3 rounded-xl bg-[#FFFFFF]">Debug using Chrome DevTools, check for overlapping ...</p>
                     <div class="flex items-center justify-between">
                         <div>
                             <p class="text-xs font-extralight">Deadline</p>
                             <p class="font-medium">21 March 2025</p>
                         </div>
                         <div>
-                            <button class="btn btn-primary">Completed</button>
+                            <button class="btn btn-primary complete-btn">Completed</button>
                         </div>
                     </div>
                  </div>
              <!-- forth div -->
              <div class="bg-[#F4F7FF] rounded-2xl p-3 space-y-6">
                 <p class="p-3 rounded-xl bg-[#FFFFFF] w-[110px]">ShopEase</p>
-                <h1 class="text-2xl font-medium">Fix Mobile Button Issue </h1>
+                <h1 class="text-2xl font-medium">Add new emoji 🤲</h1>
                 <p class="p-3 rounded-xl bg-[#FFFFFF]">Debug using Chrome DevTools, check for overlapping...</p>
                 <div class="flex items-center justify-between">
                     <div>
@@ -108,14 +108,14 @@
                         <p class="font-medium">21 March 2025</p>
                     </div>
                     <div>
-                        <button class="btn btn-primary">Completed</button>
+                        <button class="btn btn-primary complete-btn">Completed</button>
                     </div>
                 </div>
              </div>
           <!-- fifth div -->
           <div class="bg-[#F4F7FF] rounded-2xl p-3 space-y-6">
             <p class="p-3 rounded-xl bg-[#FFFFFF] w-[110px]">ShopEase</p>
-            <h1 class="text-2xl font-medium">Fix Mobile Button Issue </h1>
+            <h1 class="text-2xl font-medium">Integrate OpenAI API  </h1>
             <p class="p-3 rounded-xl bg-[#FFFFFF]">Debug using Chrome DevTools, check for overlapping...</p>
             <div class="flex items-center justify-between">
                 <div>
@@ -123,14 +123,14 @@
                     <p class="font-medium">21 March 2025</p>
                 </div>
                 <div>
-                    <button class="btn btn-primary">Completed</button>
+                    <button class="btn btn-primary complete-btn">Completed</button>
                 </div>
             </div>
          </div>
           <!-- sixth div -->
           <div class="bg-[#F4F7FF] rounded-2xl p-3 space-y-6">
             <p class="p-3 rounded-xl bg-[#FFFFFF] w-[110px]">ShopEase</p>
-            <h1 class="text-2xl font-medium">Fix Mobile Button Issue </h1>
+            <h1 class="text-2xl font-medium">Improve Job searching </h1>
             <p class="p-3 rounded-xl bg-[#FFFFFF]">Debug using Chrome DevTools, check for overlapping...</p>
             <div class="flex items-center justify-between">
                 <div>
@@ -138,7 +138,7 @@
                     <p class="font-medium">21 March 2025</p>
                 </div>
                 <div>
-                    <button class="btn btn-primary">Completed</button>
+                    <button class="btn btn-primary complete-btn">Completed</button>
                 </div>
             </div>
          </div>
@@ -153,10 +153,14 @@
                     <img class="w-6" src="./A5-Dev-Board/assets/activity.png" alt="">
                 <p class="text-xl font-semibold">Activity Log</p> 
                 </div>
-                <div class="mt-6 text-center"> <button class="btn btn-primary">Clear History</button></div>
+                <div class="mt-6 text-center">
+                 <button id="clear-btn" class="btn btn-primary">Clear History</button>
+                </div>
+                <div id="activity-container" class="container-div">
+                
+                </div>
             </div>
-
-        
+            <hr>
         </section>
         
         
@@ -165,5 +169,7 @@
 
     </footer>
     <script src="js/other.js"></script>
+    <script src="js/utility.js"></script>
+    <script src="js/complete.js"></script>
 </body>
 </html>

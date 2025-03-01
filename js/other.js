@@ -14,5 +14,17 @@ if (calender) {
     })
 }
 
+
+
+// new learning
 const d = new Date();
 document.getElementById("running-date").innerHTML = d.toDateString();
+
+
+
+
+document.getElementById('color-btn').addEventListener('click', function(){
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+document.body.style.backgroundColor = '#' + randomColor;
+console.log('click')
+})

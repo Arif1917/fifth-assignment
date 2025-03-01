@@ -6,6 +6,8 @@ for (const complete of allComplete) {
     const task= getElementById('task-count')
     const currentCount = task-1;
     setInnerTextByIdAndValue('task-count', currentCount )
+
+    
     // console.log(currentCount)
 
 
@@ -26,6 +28,10 @@ for (const complete of allComplete) {
     // console.log("p1", p1);
     alert('Board updated Successfully')
         complete.disabled=true;
+
+        if(currentCount === 0){
+            alert('congratulation!!! You have completed all the current task')
+        }
     })
 }
 
